@@ -1,0 +1,105 @@
+```css
+body{
+margin:0;
+background:black;
+color:white;
+font-family:'Press Start 2P', cursive;
+}
+
+.container{
+display:flex;
+height:100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+width:30%;
+background:#111;
+padding:20px;
+overflow-y:auto;
+}
+
+.sidebar h3{
+margin-top:20px;
+}
+
+.countryList a,
+.dropdown-content a{
+display:block;
+padding:12px;
+cursor:pointer;
+}
+
+.countryList a:hover,
+.dropdown-content a:hover{
+background:#222;
+}
+
+
+/* DROPDOWN */
+
+.dropdown{
+position:relative;
+}
+
+.dropbtn{
+background:#111;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+cursor:pointer;
+}
+
+.dropdown-content{
+display:none;
+position:absolute;
+background:#111;
+width:100%;
+}
+
+.dropdown:hover .dropdown-content{
+display:block;
+}
+
+
+/* MAIN NEWS */
+
+.main{
+width:70%;
+padding:20px;
+overflow-y:auto;
+}
+
+.topbar h1{
+font-size:18px;
+cursor:pointer;
+}
+
+.topbar p{
+font-size:10px;
+color:gray;
+}
+
+/* NEWS CARD */
+
+.newsCard{
+border-bottom:1px solid #333;
+padding:20px;
+cursor:pointer;
+}
+
+.newsCard:hover{
+background:#111;
+}
+
+.newsCard h2{
+font-size:14px;
+}
+
+.source{
+font-size:10px;
+color:gray;
+}
+```

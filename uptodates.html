@@ -1,0 +1,66 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Updatedates</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+<h3>Genre</h3>
+
+<div class="dropdown">
+<button class="dropbtn">Choose Genre</button>
+<div class="dropdown-content">
+<a onclick="loadNews('sports')">Sports</a>
+<a onclick="loadNews('technology')">Technology</a>
+<a onclick="loadNews('science')">Science</a>
+<a onclick="loadNews('entertainment')">Movies</a>
+<a onclick="loadNews('general')">Breaking News</a>
+</div>
+</div>
+
+<h3>Country</h3>
+
+<input type="text" id="countrySearch" placeholder="Search country...">
+
+<div class="countryList">
+<a onclick="setCountry('us')">USA</a>
+<a onclick="setCountry('gb')">UK</a>
+<a onclick="setCountry('in')">India</a>
+<a onclick="setCountry('jp')">Japan</a>
+<a onclick="setCountry('ae')">UAE</a>
+<a onclick="setCountry('au')">Australia</a>
+</div>
+
+</div>
+
+
+<!-- MAIN NEWS AREA -->
+
+<div class="main">
+
+<div class="topbar">
+<h1 onclick="goHome()">Updatedates</h1>
+<p>Finding News Made Easy</p>
+</div>
+
+<div id="news"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
